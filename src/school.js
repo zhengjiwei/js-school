@@ -172,7 +172,7 @@ class ElementDiv extends Component{
         );
 */
         return(
-            <div style={{width: "100px", textAlign: "center", padding: "20px"}}>
+            <div className={"math-element-div"}>
                 <div className={""} style={{textAlign: "right"}}>{first}</div>
                 <div>
                     <div className={"float-left"} style={{width: "40px", textAlign: "left"}}>{type}</div>
@@ -211,7 +211,7 @@ class SchoolEducation extends Component {
 
     setPrintMode(){
         this.setState({showInputForm: false});
-        document.body.style.marginTop = "-80px";
+        document.body.style.marginTop = "-100px";
     }
 
     onClickMathGenerator(data){
@@ -292,7 +292,7 @@ class SchoolEducation extends Component {
         const {showInputForm, submit} = this.state;
         return (
             <MuiThemeProvider theme={schoolTheme}>
-                <div style={{padding: "10px 40px"}}>
+                <div style={{padding: "0px 0px"}}>
                     <InputFrame show={showInputForm} submit={submit}
                                 onClickMathGenerator={this.onClickMathGenerator} onClickSudokuGenerator={this.onClickSudokuGenerator}/>
                     {this.state.content}

@@ -16,6 +16,13 @@
     display:inline-block;
 }
 
+.math-element-div {
+    width: 100px;
+    text-align: center;
+    padding: 20px;
+    padding-bottom: 0px;
+}
+
 .math-sub-element {
     min-width: 30px;
     display:inline-block;
@@ -36,4 +43,8 @@
     line-height: 40px;
     font-size: 12px;
     float: left;
+}
+
+@media print {
+    footer {page-break-after: always;}
 }
