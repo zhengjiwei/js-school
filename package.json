@@ -12,7 +12,7 @@
     "aws-sdk": "^2.244.1",
     "babel-loader": "^7.1.4",
     "babel-preset-es2016": "^6.24.1",
-    "postcss": "^6.0.22",
+    "postcss": "^8.4.31",
     "postcss-flexbugs-fixes": "^3.3.1",
     "postcss-loader": "^2.1.5",
     "rc-calendar": "^9.6.2",
